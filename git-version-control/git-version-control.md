@@ -38,6 +38,12 @@
     * contains a detailed description of changes
 * [git commit](https://git-scm.com/docs/git-commit)
 ---
+
+```bash
+  $ git push xyz abc
+```
+* saves changes to remote repo names xyz and branch named abc and makes a pull request if necessary
+* [git push](https://git-scm.com/docs/git-push)
     
 ```bash
   $ git branch
@@ -183,5 +189,6 @@
   * use -n flag to avoid auto commit
 * [official documentation](https://git-scm.com/docs/git-cherry-pick)
 # resources
+### [GitHub's git Documentation](https://docs.github.com/en/get-started/using-git)
 ### [Atlassian's tutorials](https://www.atlassian.com/git/tutorials)
 ### [Official Documentation](https://git-scm.com/docs)
