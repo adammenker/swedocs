@@ -2,7 +2,7 @@
 
 ---
 
-#commands:
+# commands:
 ```bash
    $ git status
 ```
@@ -75,8 +75,8 @@
 
 
 
-#branching workflow:
-###strategies/methodologies
+# branching workflow:
+### strategies/methodologies
 * **"always be integrating"**
   * only have a small number of branches at a single time
   * keep commits small 
@@ -85,7 +85,7 @@
   * have different forms of branches
     * e.g. main vs dev vs feature
 ---
-###long running branch vs short running branch
+### long running branch vs short running branch
 * **long-running** 
   * not intended to be deleted 
   * usually contains short-running branches
@@ -96,16 +96,16 @@
   * e.g. feature branch
 ---
   
-#pull requests
-###overview
+# pull requests
+### overview
 * a feature of hosting platforms (github)
 * designed for when a user who doesn't have direct write access wants to make changes
 * allows user with write access to view changes and pull them in if desired
 ---
-###forking
+### forking
 * allows user to create personal remote copy of another remote repo
 ---
-###cloning
+### cloning
 * allows user to create a local copy of a remote repo
   * established remote and local connection
     * user can then make push to the remote repo
@@ -117,8 +117,8 @@
 * establishes remote and local connection
 * pushes changes to newly created remote repo
 ---
-#merge
-###overview
+# merge
+### overview
 * when two unique branches are combined
 * looks to common ancestor and most common ancestor shared by both branches
 * it combines the changes from each branch from the common ancestor and makes a new common ancestor
@@ -127,21 +127,21 @@
 ![git merge](https://wac-cdn.atlassian.com/dam/jcr:4639eeb8-e417-434a-a3f8-a972277fc66a/02%20Merging%20main%20into%20the%20feature%20branh.svg?cdnVersion=140)
 
 ---
-###merge conflict
+### merge conflict
 * occurs when local branch tries to push changes but is missing changes from remote branch
 * requires user to resolve conflicts before pushing
   * user will pick and choose changes from each branch and then make a new commit after choosing desired changes to keep
 ---
   
-#rebase
-###overview
+# rebase
+### overview
 * attempts to move all commits after current ancestor to the front of the branch being rebased from
 * changes git history to look as if the front of the rebased branch was the common ancestor
 * NEVER rebase commits that have already been pushed or else git history issues
 * [official documentation](https://git-scm.com/docs/git-rebase)
 ![git rebase](https://wac-cdn.atlassian.com/dam/jcr:2908e0e6-f74b-4425-b5d2-f5eca8cfcd99/05%20Rebasing%20the%20main%20branch.svg?cdnVersion=140)
 ---
-#cherry pick
-###overview
+# cherry-pick
+### overview
 
 # resources
