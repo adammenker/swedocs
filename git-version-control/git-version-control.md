@@ -9,6 +9,7 @@
 * shows the current status of staging
   * tracked => files that have been added to version control
   * staged => files/changes that have been added and ready to be committed
+* [git status](https://git-scm.com/docs/git-status)
 ---
 
 ```bash
@@ -21,6 +22,7 @@
 * -p flag allows user to move through changes and choose to add them or not
   * 'y' will stage the changes
   * 'n' will skip the changes
+* [git add](https://git-scm.com/docs/git-add)
 ---
 
 ```bash
@@ -34,6 +36,7 @@
   * empty line separates subject from body
   * body is after empty line
     * contains a detailed description of changes
+* [git commit](https://git-scm.com/docs/git-commit)
 ---
     
 ```bash
@@ -41,10 +44,12 @@
 ```
 * lists all branches 
 
+
 ```bash
   $ git branch xyz
 ```
 * creates a branch names 'xyz'
+* [git branch](https://git-scm.com/docs/git-branch)
 ---
 
 ```bash
@@ -65,13 +70,43 @@
   $ git diff xyz
 ```
 * shows unstages changes to the file named xyz
+* [git diff](https://git-scm.com/docs/git-diff)
 ---
 
 ```bash
   $ git checkout xyz
 ```
 * moves to the branch named xyz
+* [git checkout](https://git-scm.com/docs/git-checkout)
 ---
+
+```bash
+  $ git clone xyz
+```
+* creates a local copy of xyz repository
+* [git clone](https://git-scm.com/docs/git-clone)
+---
+
+```bash
+  $ git rebase xyz
+```
+* makes xyz branch the ancestor of current branch
+* [git rebase](https://git-scm.com/docs/git-rebase)
+---
+
+```bash
+  $ git cherry-pick commithash
+```
+* brings in changes from a specific commit
+* [git cherry-pick](https://git-scm.com/docs/git-cherry-pick)
+---
+
+```bash
+  $ git log
+```
+* shows commit history 
+* press 'q' to quit out of git log
+* [git log](https://git-scm.com/docs/git-log)
 
 
 
@@ -143,5 +178,10 @@
 ---
 # cherry-pick
 ### overview
-
+* allows user to bring in changes from any commit (not just most recent)
+* automatically makes a commit after choosing to cherry-pick
+  * use -n flag to avoid auto commit
+* [official documentation](https://git-scm.com/docs/git-cherry-pick)
 # resources
+### [Atlassian's tutorials](https://www.atlassian.com/git/tutorials)
+### [Official Documentation](https://git-scm.com/docs)
