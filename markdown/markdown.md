@@ -112,7 +112,7 @@
 ---
 
 ## Badges
-* [badges docs](https://shields.io/category/build)
+* [badges docs](https://shields.io/)
 * [list of badges](https://naereen.github.io/badges/)
 
 
