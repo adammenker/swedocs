@@ -85,16 +85,15 @@
 | data | data |
 ---
 
-# Check List
-* \* \[X\] text
-  * completed task
-* \* \[ \] 
-  * incomplete task
+## Check List
+* asterisk (*) followed by brackets ([ ])  text
+  * if space in brackets box is unchecked
+  * if 'X' in brackets box is checked
 * [X] completed task
 * [ ] uncompleted task
 ---
 
-# Colors
+## Color Highlights
 \`\`\`diff
 * \- text in red
 * \+ text in green
@@ -110,7 +109,10 @@
 # text in gray
 @@ text in purple (and bold)@@
 ```
+---
 
+## Badges
+* [list of badges](https://naereen.github.io/badges/)
 
 
 
